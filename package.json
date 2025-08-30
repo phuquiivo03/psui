@@ -1,0 +1,20 @@
+{
+  "name": "suip",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "retrival": "node src/modules/retrival.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.1",
+    "puppeteer": "^24.17.0",
+    "puppeteer-core": "^24.17.0"
+  }
+}
