@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsx src/index.ts",
+    "dev": "tsx --watch src/index.ts",
     "retrival": "tsx src/modules/retrival.ts",
     "watch": "tsc --watch"
   },
@@ -17,7 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "@mysten/sui": "^1.37.5",
-    "@mysten/sui.js": "^0.54.1",
+    "@mysten/sui.js": "^0.32.1",
+    "@suiet/wallet-kit": "^0.2.6",
     "puppeteer": "^24.17.0",
     "puppeteer-core": "^24.17.0"
   },
