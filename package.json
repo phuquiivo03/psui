@@ -19,6 +19,8 @@
     "@mysten/sui": "^1.37.5",
     "@mysten/sui.js": "^0.32.1",
     "@suiet/wallet-kit": "^0.2.6",
+    "graphql-request": "^7.2.0",
+    "graphql-tag": "^2.12.6",
     "puppeteer": "^24.17.0",
     "puppeteer-core": "^24.17.0"
   },
